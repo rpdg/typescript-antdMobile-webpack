@@ -1,0 +1,30 @@
+{
+	"name": "antd-mobile-ts",
+	"version": "1.0.0",
+	"scripts": {
+		"start": "webpack-dev-server --host 0.0.0.0 --port 8000",
+		"build": "webpack --display-error-details"
+	},
+	"license": "ISC",
+	"dependencies": {
+		"react": "^16.0.0",
+		"react-dom": "^16.0.0",
+		"antd-mobile": "^2.0.0-beta.6",
+		"babel-runtime": "^7.0.0-beta.2"
+	},
+	"devDependencies": {
+		"@types/react": "^16.0.10",
+		"@types/react-dom": "^16.0.1",
+		"autoprefixer": "^7.1.5",
+		"css-loader": "^0.28.7",
+		"sass-loader" : "^6.0.6" ,
+		"file-loader": "^1.1.5",
+		"json-loader": "^0.5.7",
+		"source-map-loader": "^0.2.2",
+		"ts-loader": "^2.3.7",
+		"typescript": "^2.5.3",
+		"url-loader": "^0.6.2",
+		"webpack": "^3.7.1",
+		"webpack-dev-server": "^2.9.1"
+	}
+}
