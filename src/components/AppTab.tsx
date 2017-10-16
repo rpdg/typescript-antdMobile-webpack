@@ -19,13 +19,13 @@ export class  AppTab extends  React.Component<any, any>  {
 				      onChange={(tab, index) => { console.log('onChange', index, tab); }}
 				      onTabClick={(tab, index) => { console.log('onTabClick', index, tab); }}
 				>
-					<div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', height: '150px', backgroundColor: '#fff' }}>
+					<div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', height: '250px', backgroundColor: '#fff' }}>
 						Content of First Tab
 					</div>
-					<div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', height: '150px', backgroundColor: '#fff' }}>
+					<div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', height: '250px', backgroundColor: '#fff' }}>
 						Content of Second Tab
 					</div>
-					<div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', height: '150px', backgroundColor: '#fff' }}>
+					<div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', height: '250px', backgroundColor: '#fff' }}>
 						Content of Third Tab
 					</div>
 				</Tabs>
